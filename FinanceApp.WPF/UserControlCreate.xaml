@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="FinanceApp.WPF.UserControlCreate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FinanceApp.WPF"
+             mc:Ignorable="d"
+             Foreground="Black"
+             >
+    <Grid Background="#FFDEDEDE" Width="1010" Height="511">
+        <TextBlock Margin="348,66,407,416" FontSize="22" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Width="255">Добавить новую статью</TextBlock>
+        <Label Margin="348,128,564,359" Foreground="Black" FontSize="13">Название</Label>
+        <TextBox x:Name="ArticleName" Margin="348,152,407,0" TextWrapping="Wrap" FontSize="15" Height="32" VerticalAlignment="Top"/>
+
+        <Label Margin="348,184,564,0" Height="27" VerticalAlignment="Top" Foreground="Black" FontSize="13">Тип</Label>
+        <ComboBox x:Name="Type" Margin="348,211,407,0" Height="32" VerticalAlignment="Top" FontSize="15">
+            <ComboBoxItem IsSelected="True">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="1,0,0,0"></TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+            <TextBlock Margin="1,0,0,0">Доход</TextBlock>
+            <TextBlock Margin="1,0,0,0">Расход</TextBlock>
+        </ComboBox>
+
+        <Label Margin="348,243,564,0" Height="25" VerticalAlignment="Top" Foreground="Black" FontSize="13">Описание</Label>
+        <TextBox x:Name="Description" Margin="348,268,407,0" TextWrapping="Wrap" Height="50" VerticalAlignment="Top" FontSize="15"/>
+
+        <Label Margin="348,318,564,0" Height="25" VerticalAlignment="Top" Foreground="Black" FontSize="13">Сумма</Label>
+        <TextBox x:Name="Sum"  Margin="348,343,407,0" TextWrapping="Wrap" Height="32" VerticalAlignment="Top" FontSize="15"/>
+
+        <Button Margin="0,350,70,0" Width="100" Foreground="White" FontSize="13" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click" >Добавить</Button>
+    </Grid>
+</UserControl>

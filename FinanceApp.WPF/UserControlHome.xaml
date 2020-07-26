@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="FinanceApp.WPF.UserControlHome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FinanceApp.WPF"
+             mc:Ignorable="d">
+    <Grid Background="#FFDEDEDE" Width="1010" Height="511">
+        <DataGrid x:Name="FinanceDataGrid" AutoGenerateColumns="False" CanUserAddRows="False"  Background="#FFDEDEDE" Foreground="Black">
+            <DataGrid.Columns>
+                <DataGridTextColumn Visibility="Hidden" IsReadOnly="True" Binding="{Binding Id}" Header="Id" Width="70"/>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Name}" Header="Название" Width="252"/>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Type}" Header="Тип" Width="252"/>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding PubDate}" Header="Дата публикации" Width="252"/>
+                <DataGridTextColumn IsReadOnly="True" Binding="{Binding Price}" Header="Сумма" Width="120"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Удалить" Click="ButtonRemove_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
+

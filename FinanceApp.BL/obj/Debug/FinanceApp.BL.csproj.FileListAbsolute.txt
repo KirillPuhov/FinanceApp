@@ -1,0 +1,11 @@
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Debug\FinanceApp.BL.dll.config
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Debug\FinanceApp.BL.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Debug\FinanceApp.BL.pdb
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Debug\EntityFramework.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Debug\EntityFramework.xml
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Debug\FinanceApp.BL.csproj.CoreCompileInputs.cache
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Debug\FinanceApp.BL.csproj.CopyComplete
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Debug\FinanceApp.BL.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Debug\FinanceApp.BL.pdb

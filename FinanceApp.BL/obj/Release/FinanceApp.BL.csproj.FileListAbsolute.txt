@@ -1,0 +1,12 @@
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Release\FinanceApp.BL.dll.config
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Release\FinanceApp.BL.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Release\FinanceApp.BL.pdb
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Release\EntityFramework.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Release\EntityFramework.xml
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Release\FinanceApp.BL.csproj.CoreCompileInputs.cache
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Release\FinanceApp.BL.csproj.CopyComplete
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Release\FinanceApp.BL.dll
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Release\FinanceApp.BL.pdb
+C:\Users\micro\source\repos\FinanceApp\FinanceApp.BL\obj\Release\FinanceApp.BL.csprojAssemblyReference.cache
